@@ -1,0 +1,46 @@
+{
+  "world_name" : "My World",  
+  "valid_task": ["Delivery", "Loop", "Clean"],
+  "task": {
+    "Loop": {
+      "places": [
+        "sala1",
+        "sala2",
+        "sala3",
+        "sala4",
+        "sala5",
+        "hd_pasillo1",
+        "hd_pasillo2",
+        "charge1",
+        "charge2"
+      ]
+    },
+    "Delivery": {
+      "option":{
+
+      "coke_sala2":{
+        "pickup_place_name": "sala2",
+          "pickup_dispenser": "pickup_sala2",
+          "dropoff_place_name": "sala4",
+          "dropoff_ingestor": "ingestor_sala4"
+
+        }
+          }
+      },
+
+
+    "Clean": {
+    "option": [
+    "clean_sala2",
+      "clean_sala3"
+    ]
+    },
+    "Station": {
+    },
+    "Patrol": {
+    },
+    "Charging": {
+
+    }
+  }
+}

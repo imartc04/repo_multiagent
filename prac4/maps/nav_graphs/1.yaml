@@ -1,0 +1,110 @@
+building_name: my_world
+levels:
+  L1:
+    lanes:
+    - - 0
+      - 1
+      - {door_name: door_sala1, speed_limit: 0}
+    - - 1
+      - 0
+      - {door_name: door_sala1, speed_limit: 0}
+    - - 1
+      - 2
+      - {dock_name: clean_sala2, speed_limit: 0}
+    - - 2
+      - 1
+      - {speed_limit: 0, undock_name: clean_sala2}
+    - - 3
+      - 4
+      - {speed_limit: 0}
+    - - 4
+      - 3
+      - {speed_limit: 0}
+    - - 4
+      - 5
+      - {speed_limit: 0}
+    - - 5
+      - 4
+      - {speed_limit: 0}
+    - - 5
+      - 6
+      - {door_name: door_sala3, speed_limit: 0}
+    - - 6
+      - 5
+      - {door_name: door_sala3, speed_limit: 0}
+    - - 6
+      - 7
+      - {dock_name: clean_sala3, speed_limit: 0}
+    - - 7
+      - 6
+      - {speed_limit: 0, undock_name: clean_sala3}
+    - - 4
+      - 8
+      - {speed_limit: 0}
+    - - 8
+      - 4
+      - {speed_limit: 0}
+    - - 8
+      - 9
+      - {speed_limit: 0}
+    - - 9
+      - 8
+      - {speed_limit: 0}
+    - - 9
+      - 10
+      - {speed_limit: 0}
+    - - 10
+      - 9
+      - {speed_limit: 0}
+    - - 10
+      - 0
+      - {speed_limit: 0}
+    - - 0
+      - 10
+      - {speed_limit: 0}
+    - - 11
+      - 0
+      - {speed_limit: 0}
+    - - 0
+      - 11
+      - {speed_limit: 0}
+    vertices:
+    - - 11.994021278848221
+      - -1.7805210951197403
+      - {is_holding_point: true, name: ''}
+    - - 5.014387007504653
+      - -1.5661090479079698
+      - {is_holding_point: true, name: sala1}
+    - - 5.197344655802993
+      - -3.4804481882042633
+      - {dock_name: clean_sala2, is_cleaning_zone: true, name: clean_sala2}
+    - - 29.35234396275212
+      - -5.067611050645989
+      - {is_charger: true, is_holding_point: true, is_parking_spot: true, name: cleanerbot_charger1,
+        spawn_robot_name: cleanerBotA_1, spawn_robot_type: CleanerBotA}
+    - - 29.513574074451626
+      - -13.580215665821395
+      - {name: ''}
+    - - 39.136514760508256
+      - -14.102560804403879
+      - {is_charger: true, is_holding_point: true, is_parking_spot: true, name: charge2,
+        spawn_robot_name: tinyRobot2, spawn_robot_type: TinyRobot}
+    - - 38.61576971183033
+      - -7.192404121021706
+      - {name: ''}
+    - - 37.61946110046394
+      - -3.345240591268482
+      - {dock_name: clean_sala3, is_cleaning_zone: true, name: clean_sala3}
+    - - 22.64746197107407
+      - -13.515033056024887
+      - {is_holding_point: true, name: hd_pasillo2}
+    - - 17.592735854922736
+      - -13.650282760589734
+      - {is_passthrough_point: true, name: ''}
+    - - 14.957766750765046
+      - -7.528296678093249
+      - {name: ''}
+    - - 15.352104696982295
+      - -2.5894086495066437
+      - {is_charger: true, is_holding_point: true, is_parking_spot: true, name: cleanerbot_charger2,
+        spawn_robot_name: cleanerBotA_2, spawn_robot_type: CleanerBotA}
